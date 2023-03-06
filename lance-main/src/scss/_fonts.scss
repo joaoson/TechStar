@@ -1,0 +1,30 @@
+
+@font-face {
+    font-family: 'freshman';
+    src: url('../assets/fonts/freshman-webfont.woff2') format('woff2'),
+         url('../assets/fonts/freshman-webfont.woff') format('woff'),
+         url('../assets/fonts/Freshman.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'Climate Crisis';
+    src: url('../assets/fonts/ClimateCrisis-Regular.woff2') format('woff2'),
+        url('../assets/fonts/ClimateCrisis-Regular.woff') format('woff'),
+        url('../assets/fonts/ClimateCrisis-Regular-VariableFont_YEAR.ttf') format("ttf");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../assets/fonts/Poppins-Regular.woff2') format('woff2'),
+        url('../assets/fonts/Poppins-Regular.woff') format('woff'),
+        url('../assets/fonts/Poppins-Regular.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

@@ -1,0 +1,26 @@
+#como-funciona {
+    background: $font-color-primary;
+}
+
+.steps {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    &__item {
+        width: calc(90% / 5);
+        text-align: center;
+        
+        img{
+            width: 100%;
+            aspect-ratio: 8/8;
+        }
+
+        span {
+            color: $color-secondary;
+        }
+    }
+
+}

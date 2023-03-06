@@ -1,0 +1,46 @@
+
+header .container {
+
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    .cabecalho{
+        width: 100%;
+        flex-direction: row;
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        padding: 20px 0;
+
+        img{
+            width: 40%;
+        }
+    }
+
+    .hero {
+        align-items: center;
+        height: auto;
+        display: flex;
+        padding-bottom: 4rem;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+
+        img{
+            width: 70%;
+            aspect-ratio: 16/9;
+        }
+
+        h1 {
+            bottom: 20rem;
+            text-align: center;
+            width: 100%;
+            font-family: 'Poppins',sans-serif;
+            letter-spacing: 0.5rem;
+            color: #f4f4f4;
+            font-size: 4rem;
+        }
+    }
+
+}
