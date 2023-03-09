@@ -1,0 +1,34 @@
+@media (max-width:650px) and (min-width:320px){
+    .vitrine__item{
+        width: 100%;
+        padding: 0;
+        margin-bottom: 1rem;
+        min-height: 65rem;
+    }
+
+    .vitrine{
+        flex-direction: column;
+    }
+
+    .nav__item{
+        font-size:1rem;
+    }
+
+    .steps__item {
+        width: calc(90% / 1);
+    }
+
+    .steps{
+        justify-content: center;
+    }
+}
+
+@media (max-width:1024px) and (min-width:651px){
+    .vitrine__button {
+        font-size: 1rem;
+    }
+
+    .vitrine__item {
+        width: 20%;
+    }
+}
